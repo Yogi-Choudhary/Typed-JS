@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Typed js</title>
+    <link rel="stylesheet" href="./stylesheet/style.css">
+</head>
+<body>
+    <div class="banner-area">
+        <h2>I am a <span class="element" style="color:red"></span></h2>
+    </div>
+ 
+    <script src="./typed.js"></script>
+
+    <script>
+        var typed = new Typed(".element", {
+    strings: [
+        "Designer", 
+        "Developer",
+        "Freelancer"
+    ],
+    typeSpeed: 0.01,
+    backSpeed: 0.01,
+    loop: true
+  });
+    </script>
+</body>
+</html>
